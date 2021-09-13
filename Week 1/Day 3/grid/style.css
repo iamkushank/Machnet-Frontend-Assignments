@@ -1,0 +1,68 @@
+:root {
+  --primaryBorder: 1px solid #b1ede8;
+  --primaryBackground: #f4fdd9;
+  --primaryMargin: 5px;
+  --primaryPadding: 2px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+html,
+body {
+  background: #fef9ff;
+  width: auto;
+  height: auto;
+}
+
+.container {
+  border: 2px solid black;
+  font-size: 2em;
+  height: 100vh;
+}
+
+header {
+  border: var(--primaryBorder);
+  margin: var(--primaryMargin);
+  background: var(--primaryBackground);
+  padding-left: var(--primaryPadding);
+}
+
+.nav {
+  border: var(--primaryBorder);
+  margin: var(--primaryMargin);
+  background: var(--primaryBackground);
+  padding-left: var(--primaryPadding);
+}
+
+.main {
+  border: var(--primaryBorder);
+  margin: var(--primaryMargin);
+  background: var(--primaryBackground);
+  padding-left: var(--primaryPadding);
+}
+
+.sidebar {
+  border: var(--primaryBorder);
+  margin: var(--primaryMargin);
+  background: var(--primaryBackground);
+  padding-left: var(--primaryPadding);
+}
+
+.ads {
+  border: var(--primaryBorder);
+  margin: var(--primaryMargin);
+  background: var(--primaryBackground);
+  padding-left: var(--primaryPadding);
+}
+
+footer {
+  border: var(--primaryBorder);
+  margin: var(--primaryMargin);
+  background: var(--primaryBackground);
+  padding-left: var(--primaryPadding);
+}

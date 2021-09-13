@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+.banner {
+  background: white;
+  width: 100%;
+}
+
+.logo {
+  margin: 20px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.nav-1 {
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+  padding-top: 5px;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+.nav-1:hover {
+  cursor: pointer;
+  opacity: 0.2;
+}
+
+.nav-2 ul li a {
+  text-decoration: none;
+  color: darkgrey;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  margin: 20px;
+}
+
+.nav-2 > * {
+  list-style-type: none;
+}
+
+.nav-2 ul li a:hover {
+  opacity: 0.5;
+}
+
+.main-body {
+  background: #e5e5e5;
+}
+
+.title {
+  background: #e5e5e5;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.title > p {
+  margin: 10px 40px;
+  color: #131313;
+  word-spacing: 3px;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #f12c0e;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4 {
+  background: white;
+  margin: 10px 20px 10px 20px;
+  padding: 10px;
+  font-weight: lighter;
+  font-size: 1.2em;
+}
+
+.pizza-img > img {
+  width: 300px;
+  height: 200px;
+}
+
+.price {
+  color: #f12c0e;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.add-btn {
+  border: none;
+  outline: none;
+  background: #e5e5e5;
+  font-size: 1.2em;
+  font-weight: lighter;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.add-btn:hover {
+  cursor: pointer;
+  background: lightgrey;
+}
+
+.ending {
+  background: #e5e5e5;
+}
+
+.ending > p {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1em;
+}
+
+.link-1 > a {
+  color: #f05510;
+  text-decoration: none;
+}
+
+.link-1 > a:hover {
+  opacity: 0.5;
+}
+
+.link-2 > a {
+  color: #e3aa90;
+}
+
+.link-2 > a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: lighter;
+  background: #333333;
+}
+
+footer > .footer > p {
+  color: #f9f9f9;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px;
+}
+
+.footer > .second-text {
+  padding-top: 40px;
+}

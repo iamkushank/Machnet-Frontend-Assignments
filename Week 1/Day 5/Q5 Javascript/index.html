@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question no. 5</title>
+    <script type="text/javascript">
+        const personalInforamtion = [
+		    { name: 'Ram', address: 'Kathmandu' },
+		    { name: 'Gita', address: 'Lalitpur' },
+		    { name: 'Sita', address: 'Kathmandu' },
+		];
+		
+        const createobj = (array) => {
+            let result = {};
+            array.forEach((item) => {
+                result[item.address.toLowerCase()] = array
+                .filter((e) => e.address === item.address)
+                .map((x) => x.name);
+            });
+            return result;
+        };
+        console.log(createobj(personalInforamtion));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

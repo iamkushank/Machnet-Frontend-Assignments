@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question no 4</title>
+    <script type="text/javascript">
+        var nth, j, next, first = 0, second = 1;
+
+        nth = window.prompt("Enter the number of terms: ");
+
+        for (j = 0; j < nth; j++) {
+
+            if (j <= 1)
+                next = j;
+            else {
+                next = first + second;
+                first = second;
+                second = next;
+            }
+
+            document.write(next);
+            document.write("<br>");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

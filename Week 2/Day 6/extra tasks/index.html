@@ -1,0 +1,92 @@
+<!-- 
+    1. Hightlight text on mouse hover Events  (change text CSS )
+    2. Add new row on previously present table view
+    3. From two input field calculate area (l*b) on button Press  . (note :remove  button and replace with text : “Area is : … “)
+    4. From 3 radio button remove remaining two if one is selected -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Document</title>
+<style>
+    input {
+        width: 50px;
+        height: 20px;
+        font-size: 1.2em;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #first-input {
+        margin-bottom: 10px;
+    }
+
+    #area {
+        height: 30px;
+        width: 100px;
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+    <!-- TASK 1 -->
+    <p id="highlight">This text will be highlight <em>if</em> it is hovered...</p>
+    <br>
+
+    <!-- TASK 2 -->
+    <table id="table">
+        <tr>
+            <th>Title</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+        </tr>
+        <tr>
+            <td>Data 2</td>
+        </tr>
+    </table>
+
+    <div class="btn">
+        <button id="add-btn">ADD</button>
+        <button id="delete-btn">Remove</button>
+    </div>
+    <br>
+
+    <!-- TASK 3 -->
+    <form action="">
+        <label for="length">Lenght</label>
+        <input type="text" name="length" id="first-input">
+
+        <label for="breadth">Breadth</label>
+        <input type="text" name="breadth" id="second-input">
+
+        <button id="area">CALCULATE</button>
+    </form></body>
+    <br>
+
+    <!-- TASK 4 -->
+    <form action="">
+        <label for="radio-1">Radio-1</label>
+        <input type="radio" name="radio-1" id="radio-1" value="radio-1">
+
+        <label for="radio-2">Radio-2</label>
+        <input type="radio" name="radio-2" id="radio-2" value="radio-2">
+
+        <label for="radio-3">Radio-3</label>
+        <input type="radio" name="radio-3" id="radio-3" value="radio-3">
+    </form>
+
+    <script src="task1.js"></script>
+    <script src="task2.js"></script>
+    <script src="task3.js"></script>
+    <script src="task4.js"></script>
+</body>
+</html>

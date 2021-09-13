@@ -1,0 +1,85 @@
+:root {
+  --primaryBorder: 1px solid #9381ff;
+  --primaryBackground: #f8f7ff;
+  --primaryMargin: 5px;
+  --primaryPadding: 2px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+html,
+body {
+  background: #ffeedd;
+  width: auto;
+  height: auto;
+}
+
+.container {
+  border: 2px solid black;
+  margin: 10px;
+  font-size: 2em;
+  height: 100%;
+}
+
+header {
+  border: var(--primaryBorder);
+  margin: var(--primaryMargin);
+  background: var(--primaryBackground);
+  padding-left: var(--primaryPadding);
+}
+
+.nav {
+  border: var(--primaryBorder);
+  margin: var(--primaryMargin);
+  background: var(--primaryBackground);
+  padding-left: var(--primaryPadding);
+}
+
+.main {
+  border: var(--primaryBorder);
+  margin: var(--primaryMargin);
+  background: var(--primaryBackground);
+  height: 60vh;
+  padding-left: var(--primaryPadding);
+}
+
+.desktop-nav {
+  border: var(--primaryBorder);
+  margin: var(--primaryMargin);
+  background: var(--primaryBackground);
+  padding-left: var(--primaryPadding);
+}
+
+.desktop-main {
+  border: var(--primaryBorder);
+  margin: var(--primaryMargin);
+  background: var(--primaryBackground);
+  height: 72vh;
+  padding-left: var(--primaryPadding);
+}
+
+.sidebar {
+  border: var(--primaryBorder);
+  margin: var(--primaryMargin);
+  background: var(--primaryBackground);
+  padding-left: var(--primaryPadding);
+}
+
+.ads {
+  border: var(--primaryBorder);
+  margin: var(--primaryMargin);
+  background: var(--primaryBackground);
+  padding-left: var(--primaryPadding);
+}
+
+footer {
+  border: var(--primaryBorder);
+  margin: var(--primaryMargin);
+  background: var(--primaryBackground);
+  padding-left: var(--primaryPadding);
+}

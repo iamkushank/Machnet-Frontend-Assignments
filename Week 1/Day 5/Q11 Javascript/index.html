@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question no. 11</title>
+    <script type="text/javascript">
+        const sentence = "the carrots on the table and the bananas on the table has dissappeared";
+        
+        const obj = {};
+        sentence.split(" ").forEach((item) => {
+            if (obj.hasOwnProperty(item)) {
+                obj[item] = obj[item] + 1;
+            } else {
+                obj[item] = 1;
+            }
+        });
+
+        console.log(obj);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

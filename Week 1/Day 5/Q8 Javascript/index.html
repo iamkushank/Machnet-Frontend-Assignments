@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question no. 8</title>
+    <script type="text/javascript">
+        const details = [
+            {
+                name: 'Ram',
+                pokemons: [
+                {
+                    name: 'pikachu',
+                    color: 'yellow',
+                },
+                {
+                    name: 'charmendar',
+                    color: 'red',
+                },
+                ],
+            },
+            {
+                name: 'Shyam',
+                pokemons: [
+                {
+                    name: 'Squirtel',
+                    color: 'blue',
+                },
+                {
+                    name: 'charmendar',
+                    color: 'red',
+                },
+                {
+                    name: 'bulbasaur',
+                    color: 'green',
+                },
+                ],
+            },
+            {
+                name: 'hari',
+                pokemons: [
+            {
+                name: 'bulbasaur',
+                color: 'green',
+            },
+            {
+                name: 'pikachu',
+                color: 'yellow',
+            },
+            ],
+            },
+            {
+                name: 'gita',
+                pokemons: [
+            {
+                name: 'bulbasaur',
+                color: 'green',
+            },
+            {
+                name: 'squirtle',
+                color: 'blue',
+            },
+            ],
+            },
+        ];
+
+        const filteredArray = details.filter((personalInfo) => {
+            let length = personalInfo.pokemons.length;
+            let isColorYellowPokemonPresent = !!personalInfo.pokemons.find((pokemon) => pokemon.color === "yellow");
+
+            return length === 2 && isColorYellowPokemonPresent;
+        });
+
+        console.log((filteredArray));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

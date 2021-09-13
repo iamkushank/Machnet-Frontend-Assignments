@@ -1,0 +1,77 @@
+body {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./images/snakes-bg.png) #e3e3e3;
+}
+
+h1 {
+  margin: auto;
+  font-size: 5em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+button {
+  height: 40px;
+  width: 160px;
+  margin: 10px;
+  font-size: 1.8em;
+  background: transparent;
+  color: white;
+  outline: none;
+  border-color: white;
+}
+
+#start-game {
+  margin: auto;
+}
+
+#start-game:hover {
+  color: green;
+  border-color: green;
+  cursor: pointer;
+}
+
+#quit-game {
+  color: black;
+  border-color: black;
+}
+
+#quit-game:hover {
+  color: red;
+  border-color: red;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+#game-over {
+  margin: auto;
+  color: white;
+}
+
+canvas {
+  margin: 10px;
+  box-shadow: black 20px 10px 50px;
+  background: black;
+  position: relative;
+}
+
+#score {
+  font-size: 30px;
+  color: red;
+  font-weight: bolder;
+  position: absolute;
+  margin-bottom: 420px;
+}

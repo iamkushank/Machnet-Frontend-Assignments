@@ -1,0 +1,27 @@
+/* MOBILE VIEW */
+.banner .logo,
+.nav-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 20px;
+}
+
+.nav-2 ul {
+  display: none;
+}
+
+.logo {
+  grid-column: 1;
+}
+
+.nav-1 {
+  grid-column: 1 / -1;
+}
+
+/* TABLET VIEW */
+@media screen and (min-width: 480px) {
+}
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 1000px) {
+}

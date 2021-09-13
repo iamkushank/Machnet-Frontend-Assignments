@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(images/background-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login-form {
+  width: 300px;
+  height: 350px;
+  background: whitesmoke;
+  color: black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 50px 50px 100px 50px;
+}
+
+.user {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 30px;
+  background-color: #5e6772;
+  font-size: 14px;
+  color: white;
+  border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #8f9099;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: #5e6772;
+}
+
+a:hover {
+  color: #8f9099;
+}

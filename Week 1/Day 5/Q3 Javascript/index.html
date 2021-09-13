@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question no. 3</title>
+    <script type="text/javascript">
+        let str = "racecar"
+        let count = 1;
+
+        const whiteSpace = (numberOfSpace) => {
+            let array = [];
+
+            for(i = 1; i <= numberOfSpace; i++) {                    
+                array.push(" ");
+            }
+            return array.join("");                
+        };
+            
+        for (let i = length; i >= 1;i--) {
+            let result = whiteSpace(i - 1) + str.substring(i - 1, count);
+            count +=2;
+            console.log(result);
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

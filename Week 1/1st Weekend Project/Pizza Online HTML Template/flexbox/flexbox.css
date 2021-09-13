@@ -1,0 +1,61 @@
+/* MOBILE VIEW */
+.nav > ul {
+  display: none;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-body > * {
+  display: flex;
+  flex-direction: column;
+}
+
+/* TABLET VIEW */
+@media screen and (min-width: 480px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-1,
+  .section-2,
+  .section-3,
+  .section-4 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section-a,
+  .section-b,
+  .section-c,
+  .section-d {
+    margin: 20px;
+    font-size: 1.2em;
+  }
+}
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 1200px) {
+  .main-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  .nav > ul {
+    display: flex;
+  }
+}

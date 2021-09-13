@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: url(./images/bg-img.jpg);
+  background-size: 100% 100%;
+}
+
+.hide {
+  display: none;
+}
+
+#main-menu {
+  position: absolute;
+  background-color: black;
+  color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  border: 1px solid white;
+  margin: auto;
+  font-size: 20px;
+  width: 50%;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+#main-menu:hover {
+  cursor: pointer;
+}
+
+#main-menu:active {
+  opacity: 0.8;
+}
+
+.car,
+.enemy {
+  width: 30px;
+  height: 80px;
+  position: absolute;
+  left: 15px;
+  bottom: 230px;
+  background-color: transparent;
+  overflow: hidden;
+  background-image: url(./images/car.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+#game-area {
+  width: 400px;
+  background: #766f69;
+  height: 900px;
+  margin: auto;
+  position: relative;
+  border-right: 7px dashed #efefe7;
+  border-left: 7px dashed #efefe7;
+}
+
+.lines {
+  width: 10px;
+  height: 80px;
+  background: white;
+  position: absolute;
+  margin-left: 200px;
+}
+
+#score {
+  position: absolute;
+  top: 15px;
+  left: 1050px;
+  background: black;
+  border: 1px solid white;
+  color: white;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  word-spacing: 2px;
+  font-size: 1.8em;
+  padding-top: 18px;
+}

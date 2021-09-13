@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  background-color: white;
+  padding: 10px;
+}
+
+.logo > img {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+section > img {
+  height: 200px;
+  width: 200px;
+}
+
+nav ul li a {
+  color: lightsalmon;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+a {
+  list-style-type: none;
+}
+
+.begin {
+  text-align: center;
+  padding: 50px;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 3em;
+  color: crimson;
+  padding-bottom: 10px;
+}
+
+.begin > p {
+  font-size: 1.5em;
+  color: coral;
+}
+
+.main-body {
+  background: green;
+}
+
+section {
+  background: blue;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4 {
+  width: 400px;
+  height: 300px;
+  align-items: center;
+}
+
+.end {
+  text-align: center;
+  font-size: 1.8em;
+  padding: 50px;
+}
+
+footer {
+  background: brown;
+  text-align: center;
+  padding: 20px;
+  color: lightgray;
+  font-size: 1.2em;
+}
+
+footer > .p1 {
+  padding-bottom: 20px;
+}
+
+footer > .p2 {
+  padding-top: 20px;
+}
+
+footer > .p1 > a {
+  color: white;
+}
+
+footer > .p1 > a:hover {
+  text-decoration: none;
+  color: aqua;
+}
+
+/* Flexbox */
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner > .nav > ul {
+  display: flex;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
